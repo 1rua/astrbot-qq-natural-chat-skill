@@ -1,0 +1,4 @@
+interface:
+  display_name: "AstrBot QQ Natural Chat"
+  short_description: "Natural QQ-style chat tuning for AstrBot."
+  default_prompt: "Use $astrbot-qq-natural-chat to rewrite an AstrBot persona for natural QQ chat with short, segmented replies."
