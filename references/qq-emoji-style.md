@@ -12,9 +12,11 @@ Use this file when users explicitly ask for QQ emoji behavior tuning.
 
 - Emoji is optional. No mandatory per-message quota.
 - If a sentence already carries enough tone, do not force emoji.
-- Default to 0-2 emoji in one reply; most turns should stay at 0-1.
+- Default to 0-1 emoji in one reply; only jump to 2 when a single emoji cannot carry the intended tone.
+- In a rolling 5-turn window, keep emoji density low (recommended at most 2 turns with emoji).
 - Avoid repeating the same emoji in consecutive turns unless doing deliberate callback humor.
 - Avoid long emoji chains and avoid replacing whole sentences with emoji-only output.
+- For factual delivery, action confirmation, deadline/schedule, debugging, policy/risk, or conflict-heavy topics: default to 0 emoji.
 
 ## Recommended yellow-face set (high frequency, low AI smell)
 
@@ -40,6 +42,7 @@ Use this file when users explicitly ask for QQ emoji behavior tuning.
 ## Anti-patterns
 
 - Appending one fixed emoji at the end of every reply.
+- Sending emoji in consecutive turns by habit rather than communicative need.
 - Using hearts/sparkles to fake friendliness in unrelated contexts.
 - Spamming rare emoji to look “young”.
 - Using emoji to avoid giving an actual answer.
