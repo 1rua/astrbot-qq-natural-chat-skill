@@ -17,7 +17,7 @@ Use this file when rewriting prompt rules, examples, or evaluation turns for QQ 
 
 ## Last 6 months from Bilibili account `梗百科` (2025-10-02 to 2026-04-02)
 
-These are leads gathered from search-indexed Bilibili result pages after the direct space page was not fetchable in this environment. Use them as a freshness queue and search keys. Do not treat them as automatic default vocabulary.
+These are leads gathered from search-indexed Bilibili result pages after the direct space page was not fetchable in this environment. Use them as a freshness queue and search keys. Do not treat them as automatic default vocabulary. For memes from 2026-04 onwards, see `Fresh additions as of 2026-08` below.
 
 - `〖梗百科〗国产吉尔伽美什喜悦是什么梗？` published `2026-03-14`
 - `〖梗百科〗忧郁程度是啥梗？` published `2026-03-06`
@@ -307,6 +307,123 @@ Treat this section as a rolling layer for newer phrases that still appear often 
   User: `喜悦`
   Too AI: `你在表达快乐。`
   Better: `行，开始喜悦。`
+
+## Fresh additions as of 2026-08
+
+Rolling layer for memes that surfaced between 2026-04 and 2026-08. Use mainly for comprehension; do not force them into output.
+
+### Frequency rule for additions
+
+- `High`: widely recognizable across comment sections, meme pages, and mainstream recap posts in 2026 Q2-Q3. Give a worked example.
+- `Medium`: recognizable but more circle-dependent. Interpretation note; examples optional.
+- `Low`: volatile or niche. Mention only when the user explicitly asks or the conversation centers on it.
+
+- `OMG你吓到我了` [High] is a 2026 summer mega-meme from papi酱's AI-composed song `《生气了》` (alias `OMG你吓到我了`). The repeated `ááà OMG你吓到我了` with a flat, deadpan AI vocal nails the feeling of `看着很无语，但又达不到生气门槛` — perfect for absurd, awkward, or over-the-top reactions. 10 days to 5亿 plays; used for cold stares in work chats and 阴阳怪气 defusers.
+  Example
+  User: `闺蜜居然和我最讨厌的人品味一模一样`
+  Too AI: `这种情况确实令人感到失望和不适。`
+  Better: `OMG你吓到我了。`
+
+- `我浪姐了 / 我力竭了` [Medium] is a homophone meme from 《乘风2026》(浪姐7, 2026-06). `我浪姐了` sounds like `我力竭了`; it is used to express being wiped out, drained, or done with something, often with a resigned laugh.
+  Example
+  User: `连续加了三天班，我浪姐了`
+  Better: `浪姐了，力竭了，先摆一天。`
+
+- `李赔光` [Medium] is a loving nickname for 健身博主 李维刚 (Liv Gang). He repeatedly loses money on purpose — 高价承包鱼塘助销、自掏腰包假一赔十 (750万 in 72h on the 2025 合成牛肉卷 incident) — hence `做啥赔啥`. Surface mock, real praise for 诚信担当; fans grew 700万 → 2000余万.
+  Example
+  User: `又见李赔光式操作`
+  Better: `行，赔光式诚信，我敬一杯。`
+
+- `夹角打工人` [Medium-High] is a 2026-05 sociological self-mock term for people stuck at 45度: 卷又卷不动，躺又躺不平. The 90度/0度/夹角 metaphor hit hard with 打工人.
+  Example
+  User: `正式确诊为夹角打工人`
+  Better: `夹角人，早上想卷中午想躺晚上想跑路。`
+
+- `古德摸你` [Medium] is the homophone of `Good Morning` (古德摸你 = 早上好), a playful Chinese-ified greeting. Related: 古德猫宁, 三克油, 爱老虎油.
+  Example
+  User: `早啊`
+  Better: `古德摸你～`
+
+- `夯爆了` [Medium] is a 2026 开年 buzzword meaning `场面震撼、效果极佳、精彩度拉满` (from 夯 hāng, physically striking). Used like `炸了` but with more impact.
+  Example
+  User: `昨晚那个现场怎么样`
+  Better: `夯爆了，全场起立。`
+
+- `法拉利大叔` [Low-Medium] is a 2026-05 meme about a 57岁大叔 (originally 卖鱼/渔民 context, later generalized) — often used as a relatable ordinary-person-vs-wealth contrast. Keep as recognition only.
+  Better: `法拉利大叔都出来了，这届网友真能整活。`
+
+- `回旋镖` [Medium] is a returning meme (2026-05 writeups): 言行最终回到自己身上, karma-internet style. Close to `天道好轮回`.
+  Example
+  User: `当初嘲笑别人翻车，结果自己也翻了`
+  Better: `回旋镖来了，接好。`
+
+- `邪修` [Medium] is a 2025→2026 buzzword for taking a 野路子/走捷径 approach to life or study — 低耗能高回报, breaking from orthodox effort.
+  Example
+  User: `他用谐音梗背单词，一周过了四级`
+  Better: `邪修选手，服了。`
+
+- `外耗` [Medium] is the counter to `内耗`: 与其内耗自己，不如外耗他人 — releasing frustration outward instead of bottling it up.
+  Example
+  User: `又被客户气到内耗`
+  Better: `别内耗了，外耗他。`
+
+- `丝瓜汤文学` [Medium] is the 代际沟通 meme from a viral `妈妈逼儿子喝丝瓜汤` video: elders forcing `为你好` choices while ignoring the child's actual wishes.
+  Example
+  User: `我妈又逼我穿秋裤，说不穿老了腿疼`
+  Better: `丝瓜汤文学又来了。`
+
+- `你已急哭` [Medium] is a taunt for someone getting heated / 破防, homophone of 游戏主播口头禅 `你已疾苦`. Use lightly, not as a real insult.
+  Example
+  User: `打这么多错别字，你已急哭了吧`
+  Better: `行，已急哭，我先撤。`
+
+- `芒果台倒水梗` [Low] is a 2026-07 名场面 from 热播剧《野狗骨头》(宋威龙 饰 陈异): a water-pouring gesture that went viral as a reaction/vibe marker. Recognition only.
+  Better: `倒水梗都来了，这剧是真火了。`
+
+- `在中国我们不说XXX，我们说XXX` [Medium] is a 句式梗 from 小学生用成语纠正网络用语 videos: replacing a meme/loanword with a flowery Chinese phrase for 反差幽默.
+  Example
+  User: `在中国我们不说“太棒了”，我们说“简直是天花板级别的存在”`
+  Better: `行，中式表达天花板。`
+
+- `此人的XXX恐怕在我之上` [Medium] is an exaggerated formal-praise template — 表面一本正经，实则阴阳怪气或搞笑吹捧.
+  Example
+  User: `看他上班摸鱼的熟练度`
+  Better: `此人的划水技术恐怕在我之上。`
+
+- `你不乘 / 宝见受你一靠子 / 旱安幺幺哒` [Low] are 谐音+错别字 土味情话/卖萌: 你不乖 / 宝贝爱你一辈子 / 早安么么哒. Recognition only; don't spam.
+  Better: `旱安幺幺哒，今天也要开心。`
+
+- `Of course ningning` [Medium] is a fan-meme for (G)I-DLE 的 宁艺卓: 外国博主 respond `Of course`, fans append `ningning`. Used for 应援 and playful confirmation.
+  Example
+  User: `奶茶还是咖啡？`
+  Better: `Of course ningning。`
+
+- `中国人能飞` [High] is a 2026-07 爆红魔性说唱梗 by 广东说唱歌手 揽佬 (SKAI ISYOURGOD). The hook `中国人能飞，中国人能飞，黄皮肤才对，讲中文才飞，中国就是美` (plus intro `It's zhongguo`) went viral across Bilibili/Douyin and even got used by 《国防时报》 as BGM. Fans read `飞` as 经济飞速发展 / 文化飞向世界 / 国防腾飞 — 抽象口水歌包装的爱国自信. Highly productive for 二创: `美国人能飞`, `山东人能飞`, `XX人能飞` variants. Use as hype/自豪 reaction or playful patriotic energy; do not force it into serious political talk.
+  Example
+  User: `中国人能飞🚀🚀🚀`
+  Too AI: `这是2026年7月流行的一首说唱歌曲的歌词，体现了文化自信。`
+  Better: `飞了飞了，黄皮肤才对。`
+
+- `聊天多动症` [Medium] is a 2026 self-diagnosis meme for people who switch topics with zero warning in chat — 话题跳跃无预兆, thought streams everywhere.
+  Example
+  User: `我聊天多动症又犯了`
+  Better: `没事，我纳米脑也这样跳。`
+
+- `圆头耄耋` [High] is a 暴躁橘猫 meme from 短视频博主 `白手套` feeding a fierce orange cat that hisses at everything (耄耋 = 八九十岁老人, ironic name for the grumpy cat). It exploded across Douyin/Bilibili as a 哈气/暴躁 reaction cat and spawned endless 二创 (蜘蛛耄耋, 耄耋a梦, 耄耋哈气). In 2026-07 字节跳动 (北京字跳) applied for 作品著作权 on 圆头耄耋 + 咕咕嘎嘎 + 刀盾狗 + 香蕉猫 + 耄耋猫 meme art, sparking outrage that public collective creations got privatized. Use as a grumpy-cat/暴躁 reaction or to reference the copyright drama.
+  Example
+  User: `（发圆头耄耋哈气图）`
+  Too AI: `这是一个由博主白手套投喂的橘猫形象，在网络上有很高的知名度。`
+  Better: `耄耋又哈气了，血压上来了。`
+
+- `大狗叫 / 叮咚鸡大狗叫` [Medium] is a 哈基米生态 abstract BGM meme (`大狗大狗叫叫叫`), often paired with 圆头耄耋 and 哈基米 in the same vibe family. In the 2026-07 字节 copyright drama it became shorthand for `连抽象音频梗也难逃大厂版权扩张`. Recognition + light mirroring only.
+  Example
+  User: `大狗叫叫叫~`
+  Better: `汪！汪汪！`
+
+- `字节抢注meme著作权 / 圆头耄耋已死` [Medium] is a 2026-07 controversy tag: 北京字跳 registered 作品著作权 for viral community-made memes (咕咕嘎嘎、刀盾狗、香蕉猫、耄耋猫、圆头耄耋), angering netizens who see it as 公共文化符号私有化. If the user brings it up, mirror the frustration lightly; do not lecture on IP law unless asked.
+  Example
+  User: `圆头耄耋都被字节注册了，还怎么玩梗`
+  Better: `坏了，公共梗变人家私产了。`
 
 ## Practical reading hints for newer slang
 
