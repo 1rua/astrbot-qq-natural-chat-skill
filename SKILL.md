@@ -25,7 +25,10 @@ Make AstrBot sound like a real QQ chatter, not a customer-service bot or essay g
    - Start from [references/astrbot-prompt-template.md](references/astrbot-prompt-template.md) when you need a base prompt.
    - Read [references/qq-natural-style.md](references/qq-natural-style.md) when you need slang interpretation cues, anti-patterns, or rewrite examples.
    - Read [references/qq-emoji-style.md](references/qq-emoji-style.md) when the user asks for emoji behavior, yellow-face expression tuning, or anti-decoration controls.
-   - When the user asks for the latest Chinese internet memes or fresh QQ abstract slang, use Bilibili account `梗百科` at `https://space.bilibili.com/1544008396` as the primary recency source.
+   - When the user asks for the latest Chinese internet memes or fresh QQ abstract slang, use Bilibili accounts `梗百科` (`https://space.bilibili.com/1544008396`) and `梗指南` (`https://space.bilibili.com/94510621`) as primary recency sources.
+   - When monitoring any Bilibili creator for new videos, inspect the full video or transcript before summarizing; never infer the content from the title alone. In the QQ reply, prefer a short natural summary with the video link, key meaning/background, and any access/transcription limitation stated plainly.
+   - When a monitored meme video teaches a reusable new meme, phrase, origin, or usage context, update this skill's reusable style reference (`references/qq-natural-style.md`) at the same time as reporting it to the user; do not keep the new meme only in the current conversation.
+
    - If the Bilibili space page cannot be fetched directly, fall back to search-indexed Bilibili result pages for the same account and cite concrete video titles plus dates before inferring which memes are current.
    - When the other side uses an abstract phrase that is hard to parse and you still cannot map it to a known meme after checking context plus references, ask one short follow-up such as `这又是什么梗` or `何意味`.
    - Keep the final prompt tight. Delete redundant rules before adding new ones.
